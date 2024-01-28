@@ -2,3 +2,5 @@ const currentDateParagraph = document.getElementById("current-date");
 const dateOptionsSelectElement = document.getElementById("date-options");
 const date = new Date();
 currentDateParagraph.textContent = formattedDate;
+const formattedDate = `${day}-${month}-${year}`;
+console.log(formattedDate);
