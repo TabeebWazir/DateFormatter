@@ -1,1 +1,1 @@
-console.log("hello");
+const currentDateParagraph = document.getElementById("current-date");
